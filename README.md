@@ -17,6 +17,7 @@ Static generated files from http://colonialrevival.lib.virginia.edu
 .
 ├── README.md
 ├── colonial.bzip2.tar
+├── default.conf
 ├── docker-compose.yml
 └── static-content
     ├── gsearch.html

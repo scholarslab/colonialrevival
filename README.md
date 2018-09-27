@@ -5,7 +5,7 @@ Static generated files from http://colonialrevival.lib.virginia.edu
 - Scraping the old site was done with this command:
   - `wget --mirror -P static-content -nH -np -p -k -E http://colonialrevival.lib.virginia.edu/`
 - All files were archived in a bzip2.tar file using this command:
-  - `tar -jcf colonial.bzip2.tar /usr/local/projects/colonialrevival/releases/20120820144256`
+  - `tar -jcf colonial.bzip2.tar releases/20120820144256`
 - To recreate the site
   - Put the contents of the 'static-content' folder on a web server. It is just static HTML files.
   - Or use Docker to build an nginx container with the folder 'static-content' linked to the folder /usr/share/nginx/html in the container.

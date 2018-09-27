@@ -6,7 +6,6 @@ services:
     restart: always
     volumes:
       - ./static-content:/usr/share/nginx/html
-      - ./default.conf:/etc/nginx/conf.d/default.conf
     labels:
       - "traefik.enable=true"
       - "traefik.docker.network=thenetwork"
